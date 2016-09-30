@@ -8,6 +8,6 @@ class Timer extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'laravel-timer';
+        return 'timer';
     }
 }

@@ -24,9 +24,9 @@ class LaravelTimerServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app['timer'] = $this->app->share(function($app) {
-            return new Timer();
+            return new LaravelTimer();
         });
 
-        $this->app->alias('laravel-timer', 'Astatroth\LaravelTimer\LaravelTimer');
+        $this->app->alias('timer', 'Astatroth\LaravelTimer\LaravelTimer');
     }
 }
