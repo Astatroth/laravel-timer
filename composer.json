@@ -2,7 +2,6 @@
   "name": "astatroth/laravel-timer",
   "description": "A small tool to measure operations execution time.",
   "license": "MIT",
-  "version": "0.1",
   "authors": [
     {
       "name": "Astatroth",
@@ -11,8 +10,7 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "php": ">=5.4",
-    "illuminate/config": "5.2.*"
+    "php": ">=5.4"
   },
   "autoload": {
     "psr-4": {
