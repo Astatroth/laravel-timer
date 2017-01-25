@@ -1,5 +1,6 @@
 # laravel-timer
 <a href="https://packagist.org/packages/astatroth/laravel-timer"><img src="https://poser.pugx.org/astatroth/laravel-timer/d/total.svg" alt="Total Downloads"></a>
+
 A small tool to measure operations execution time.
 
 #Installation
