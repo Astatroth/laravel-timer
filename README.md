@@ -3,7 +3,7 @@
 
 A small tool to measure operations execution time.
 
-#Installation
+# Installation
 ```
 composer require "astatroth/laravel-timer":"dev-master"
 ```
