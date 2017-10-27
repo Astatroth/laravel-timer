@@ -11,13 +11,17 @@ Add the service provider ...
 ```php
 Astatroth\LaravelTimer\LaravelTimerServiceProvider::class,
 ```
+or if you use Lumen
+```php
+Astatroth\LaravelTimer\LumenTimerServiceProvider::class,
+```
 ... and facade:
 ```php
 'Timer' => Astatroth\LaravelTimer\Timer::class,
 ```
 
 # Usage
-Just start the with
+Just start the Timer with
 ```php
 Timer::timerStart('timer-name');
 ```
